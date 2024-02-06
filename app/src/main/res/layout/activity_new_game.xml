@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_game_bg"
+    tools:context=".NewGameActivity">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/new_game_BTN_exit"
+        android:background="@null"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="11dp"
+        android:src="@drawable/exit_btn"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="90dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaLife1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/boba_life"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaLife2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/boba_life"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaLife3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:layout_marginHorizontal="5dp"
+            android:src="@drawable/boba_life"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/new_game_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="32sp"
+        android:textColor="@color/brownText"
+        android:textStyle="bold"
+        android:fontFamily="@font/chalkduster"
+        android:text="000"/>
+
+    <GridLayout
+        android:id="@+id/new_game_GRV_gameGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="6"
+        android:layout_marginBottom="110dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw00"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw01"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw02"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw10"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw11"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw12"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw20"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw21"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw22"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw30"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw31"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw32"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw40"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw41"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw42"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw50"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw51"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw52"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/new_game_GRV_BobaGrid"
+        android:layout_width="450dp"
+        android:layout_height="133dp"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaDrink0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/boba_drink" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaDrink1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/boba_drink" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaDrink2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/boba_drink" />
+    </GridLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/new_game_GRV_gameGrid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-110dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/new_game_BTN_left"
+            android:background="@null"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="2"
+            android:src="@drawable/arrow_btn_left"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/new_game_BTN_right"
+            android:background="@null"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_weight="2"
+            android:src="@drawable/arrow_btn_right"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
