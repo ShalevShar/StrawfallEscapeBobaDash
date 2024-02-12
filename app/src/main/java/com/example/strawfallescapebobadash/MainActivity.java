@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void animateLogo() {
+    private void animateLogo() { 
         ObjectAnimator logoAnimator = ObjectAnimator.ofFloat(main_IMG_logo, "translationY", -20f, 20f);
         logoAnimator.setDuration(2000);
         logoAnimator.setRepeatMode(ObjectAnimator.REVERSE);
