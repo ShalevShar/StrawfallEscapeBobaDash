@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@null">
+
+    <ImageView
+        android:id="@+id/imageView_boba"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/boba_broken_life" />
+    <ImageView
+        android:id="@+id/imageView_coin"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="-41.9dp"
+        android:src="@drawable/coin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chalkduster"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textSize="10sp"
+        android:text="Ouch!"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

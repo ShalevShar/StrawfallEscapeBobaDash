@@ -1,62 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScoreActivity"
-    android:background="@drawable/score_bg">
+    android:orientation="vertical"
+    android:background="@drawable/score_bg"
+    tools:context=".ScoreActivity">
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/score_LBL_header"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="SCORE"
-        android:textSize="60sp"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/score_BTN_exit"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:text="X"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
         android:fontFamily="@font/chalkduster"
         android:textColor="@color/brownText"
-        android:textStyle="bold"/>
+        android:background="@null"
+        android:foregroundTint="@null"
+        android:shadowColor="@color/black"
+        android:shadowDx="2.4"
+        android:shadowDy="1.4"
+        android:shadowRadius="5" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/score_LBL_score"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/score_LBL_header"
-        android:text="000"
-        android:textSize="60sp"
-        android:fontFamily="@font/chalkduster"
-        android:textColor="@color/brownText"
-        android:textStyle="bold"/>
+    <!-- Container for Scores Fragment -->
+    <RelativeLayout
+        android:id="@+id/score_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="-50dp">
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="350dp"
-        android:layout_height="70dp"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/score_LBL_score"
-        android:orientation="horizontal">
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/score_BTN_quit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@null"
-            android:alpha="0.8"
-            android:src="@drawable/quit_btn"/>
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:id="@+id/score_BTN_resume"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:scaleType="fitCenter"
-            android:background="@null"
-            android:src="@drawable/resume_btn"/>
+    </RelativeLayout>
 
-    </androidx.appcompat.widget.LinearLayoutCompat>
+    <!-- Container for Map Fragment -->
+    <RelativeLayout
+        android:id="@+id/map_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
 
-</RelativeLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

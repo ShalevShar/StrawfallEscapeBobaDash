@@ -1,19 +1,17 @@
 package com.example.strawfallescapebobadash;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatImageButton;
-import androidx.appcompat.widget.AppCompatTextView;
-
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
+import com.example.strawfallescapebobadash.Fragments.fragment_google_map;
+import com.example.strawfallescapebobadash.Fragments.fragment_scores;
 
-public class ScoreActivity extends AppCompatActivity {
-    public static final String KEY_STATUS = "KEY_STATUS";
-    public static final String KEY_SCORE = "KEY_SCORE";
-    private AppCompatTextView score_LBL_score;
-    private AppCompatImageButton score_BTN_quit;
-    private AppCompatImageButton score_BTN_resume;
+public class ScoreActivity extends AppCompatActivity implements ScoreAdapter.OnMapLocationClickListener {
+
+    private AppCompatButton score_BTN_exit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,41 +19,49 @@ public class ScoreActivity extends AppCompatActivity {
         setContentView(R.layout.activity_score);
 
         findViews();
-        Intent previousScreen = getIntent();
-        String status = previousScreen.getStringExtra(KEY_STATUS);
-        int score = previousScreen.getIntExtra(KEY_SCORE,0);
-        showScore(status, score);
+        setFrames();
 
-        score_BTN_quit.setOnClickListener(v -> backToMain());
-        score_BTN_resume.setOnClickListener(v -> resumeGame());
+        score_BTN_exit.setOnClickListener(v -> mainActivity());
     }
-    private void showScore(String status, int score) {
-        if(status.matches("YOU WON!")) {
-            score_LBL_score.setTextColor(Color.BLUE);
-            score_LBL_score.setText(status + "\n" + score);
-        }
-        else if(status.matches("YOU LOST!")) {
-            score_LBL_score.setTextColor(Color.RED);
-            score_LBL_score.setText(status + "\n" + score);
-        }
-            else{
-            score_LBL_score.setText(score + "");
-        }
 
+    private void setFrames() {
+        // Instantiate the fragment_scores fragment
+        fragment_scores scoresFragment = new fragment_scores();
+
+        // Begin the fragment transaction for scoresFragment
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction scoreTransaction = fragmentManager.beginTransaction();
+        scoreTransaction.replace(R.id.score_fragment_container, scoresFragment); // Replace the container with the scoresFragment
+        scoreTransaction.addToBackStack(null); // Add transaction to back stack
+        scoreTransaction.commit(); // Commit the transaction
+
+        // Instantiate the google_map_fragment
+        fragment_google_map mapFragment = new fragment_google_map();
+
+        // Begin the fragment transaction for mapFragment
+        FragmentTransaction mapTransaction = fragmentManager.beginTransaction();
+        mapTransaction.replace(R.id.map_fragment_container, mapFragment); // Replace the container with the mapFragment
+        mapTransaction.addToBackStack(null); // Add transaction to back stack
+        mapTransaction.commit(); // Commit the transaction
     }
-    private void backToMain() {
-        Intent mainIntent = new Intent(this, MainActivity.class);
-        startActivity(mainIntent);
+
+    public void findViews(){
+        score_BTN_exit = findViewById(R.id.score_BTN_exit);
+    }
+
+    private void mainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
         finish();
     }
-    private void resumeGame() {
-        Intent mainIntent = new Intent(this, NewGameActivity.class);
-        startActivity(mainIntent);
-        finish();
-    }
-    private void findViews() {
-        score_LBL_score = findViewById(R.id.score_LBL_score);
-        score_BTN_quit = findViewById(R.id.score_BTN_quit);
-        score_BTN_resume = findViewById(R.id.score_BTN_resume);
+
+    @Override
+    public void onMapLocationClick(double latitude, double longitude, String name) {
+        // Get reference to the map fragment
+        fragment_google_map mapFragment = (fragment_google_map) getSupportFragmentManager().findFragmentById(R.id.map_fragment_container);
+        // Call setMapLocation method
+        if (mapFragment != null) {
+            mapFragment.setMapLocation(latitude, longitude, name);
+        }
     }
 }

@@ -67,11 +67,11 @@
         android:text="000"/>
 
     <GridLayout
-        android:id="@+id/new_game_GRV_gameGrid"
+        android:id="@+id/new_game_GRV_strawGameGrid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnCount="3"
-        android:rowCount="6"
+        android:columnCount="5"
+        android:rowCount="8"
         android:layout_marginBottom="110dp">
 
         <com.google.android.material.imageview.ShapeableImageView
@@ -92,6 +92,22 @@
             android:src="@drawable/straw" />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_straw02"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw03"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw04"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center_horizontal"
@@ -123,6 +139,22 @@
             android:layout_rowWeight="1"
             android:src="@drawable/straw" />
         <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw13"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_straw20"
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -140,6 +172,22 @@
             android:src="@drawable/straw" />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_straw22"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw23"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw24"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center_horizontal"
@@ -171,6 +219,22 @@
             android:layout_rowWeight="1"
             android:src="@drawable/straw" />
         <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw33"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw34"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_straw40"
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -188,6 +252,22 @@
             android:src="@drawable/straw" />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_straw42"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw43"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw44"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_gravity="center_horizontal"
@@ -218,13 +298,439 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw53"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw54"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw60"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw61"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw62"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw63"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw64"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw70"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw71"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw72"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw73"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_straw74"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/straw" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/new_game_GRV_coinGameGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:rowCount="8"
+        android:layout_marginBottom="110dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin00"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin02"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin03"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin04"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin21"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin22"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin23"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin30"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin31"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin32"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin33"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin34"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin40"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin41"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin42"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin43"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin44"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin50"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin51"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin52"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin53"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin54"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin60"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin61"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin62"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin63"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin64"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin70"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin71"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin72"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin73"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_coin74"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:src="@drawable/coin" />
 
     </GridLayout>
+
     <GridLayout
         android:id="@+id/new_game_GRV_BobaGrid"
         android:layout_width="450dp"
         android:layout_height="133dp"
-        android:columnCount="3"
+        android:columnCount="5"
         android:rowCount="1"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -232,31 +738,45 @@
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_bobaDrink0"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_columnWeight="1"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/boba_drink" />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_bobaDrink1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_columnWeight="1"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/boba_drink" />
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/new_game_IMG_bobaDrink2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_columnWeight="1"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/boba_drink" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaDrink3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/boba_drink" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/new_game_IMG_bobaDrink4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="30dp"
             android:src="@drawable/boba_drink" />
     </GridLayout>
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="380dp"
         android:layout_height="70dp"
-        android:layout_alignBottom="@+id/new_game_GRV_gameGrid"
+        android:layout_alignBottom="@+id/new_game_GRV_strawGameGrid"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"

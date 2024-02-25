@@ -4,7 +4,6 @@ import android.content.Context;
 import android.os.Build;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
-
 import java.util.List;
 
 public class GameManager {
@@ -38,6 +37,14 @@ public class GameManager {
         if(lastRowStraws.get(bobaDrinkPosition)){
             hits++;
             lastRowStraws.set(bobaDrinkPosition, false);
+            vibrateDevice();
+            return true;
+        }
+        return false;
+    }
+    public boolean checkIfExtra(int bobaDrinkPosition, List<Boolean> lastRowCoins){
+        if(lastRowCoins.get(bobaDrinkPosition)){
+            lastRowCoins.set(bobaDrinkPosition, false);
             vibrateDevice();
             return true;
         }

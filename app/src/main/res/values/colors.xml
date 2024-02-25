@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="brownText">#3c2415</color>
+    <color name="scoreTable">#bcaa8e</color>
+
 </resources>

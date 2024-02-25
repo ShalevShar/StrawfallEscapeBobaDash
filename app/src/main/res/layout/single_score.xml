@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/single_score_numerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@{String.valueOf(playerScore.rank)}"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/chalkduster"
+        android:textColor="@color/brownText"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/single_score_player"
+        android:layout_toRightOf="@id/single_score_numerate"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shalev"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/chalkduster"
+        android:textColor="@color/brownText"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/single_score_result"
+        android:layout_toLeftOf="@id/single_score_map"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="400"
+        android:textAlignment="viewStart"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/chalkduster"
+        android:textColor="@color/brownText"/>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/single_score_map"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/map_icon"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:backgroundTintMode="multiply"/>
+
+
+
+</RelativeLayout>
+
