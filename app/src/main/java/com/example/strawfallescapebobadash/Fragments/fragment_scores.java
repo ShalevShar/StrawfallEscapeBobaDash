@@ -8,10 +8,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.example.strawfallescapebobadash.PlayerScore;
+import com.example.strawfallescapebobadash.GlobalScores.PlayerScore;
 import com.example.strawfallescapebobadash.R;
-import com.example.strawfallescapebobadash.ScoreAdapter;
-import com.example.strawfallescapebobadash.SharedPreferencesManager;
+import com.example.strawfallescapebobadash.GlobalScores.ScoreAdapter;
+import com.example.strawfallescapebobadash.Utils.SharedPreferencesManager;
 import java.util.List;
 
 public class fragment_scores extends Fragment implements ScoreAdapter.OnMapLocationClickListener{

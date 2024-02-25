@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.Logic;
 import android.os.Handler;
 import android.view.View;
 import android.widget.GridLayout;

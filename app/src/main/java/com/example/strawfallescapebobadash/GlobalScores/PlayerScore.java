@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.GlobalScores;
 
 public class PlayerScore {
     private String playerName;

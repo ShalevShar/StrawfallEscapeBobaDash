@@ -1,7 +1,9 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.Sound;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+
+import com.example.strawfallescapebobadash.R;
 
 public class SoundManager {
     private static MediaPlayer hitSound;

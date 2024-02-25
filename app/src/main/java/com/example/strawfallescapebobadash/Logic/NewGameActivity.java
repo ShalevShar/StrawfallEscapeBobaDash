@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.Logic;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageButton;
@@ -16,8 +16,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.GridLayout;
 
-import com.example.strawfallescapebobadash.Logic.GameManager;
+import com.example.strawfallescapebobadash.Utils.CustomToast;
+import com.example.strawfallescapebobadash.GlobalScores.PlayerScore;
+import com.example.strawfallescapebobadash.R;
+import com.example.strawfallescapebobadash.GlobalScores.ScoreActivity;
 import com.example.strawfallescapebobadash.Sensors.SensorDetector;
+import com.example.strawfallescapebobadash.Utils.SharedPreferencesManager;
+import com.example.strawfallescapebobadash.Sound.SoundManager;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;

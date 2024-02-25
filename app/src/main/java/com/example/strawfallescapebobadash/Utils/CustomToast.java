@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.Utils;
 
 import android.content.Context;
 import android.os.Handler;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.strawfallescapebobadash.R;
 
 public class CustomToast {
     private static Toast toast;

@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.GlobalScores;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.strawfallescapebobadash.R;
 
 import java.util.Collections;
 import java.util.List;

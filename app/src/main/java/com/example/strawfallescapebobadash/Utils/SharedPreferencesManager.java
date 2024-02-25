@@ -1,8 +1,9 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.Utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import com.example.strawfallescapebobadash.GlobalScores.PlayerScore;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

@@ -9,7 +9,10 @@ import android.widget.Switch;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatEditText;
 
-import com.example.strawfallescapebobadash.Sensors.SensorDetector;
+import com.example.strawfallescapebobadash.GlobalScores.ScoreActivity;
+import com.example.strawfallescapebobadash.Logic.NewGameActivity;
+import com.example.strawfallescapebobadash.Utils.CustomToast;
+import com.example.strawfallescapebobadash.Utils.SharedPreferencesManager;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
 

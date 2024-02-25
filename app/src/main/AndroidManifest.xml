@@ -26,10 +26,10 @@
             android:value="@string/key_api" />
 
         <activity
-            android:name=".ScoreActivity"
+            android:name=".GlobalScores.ScoreActivity"
             android:exported="false" />
         <activity
-            android:name=".NewGameActivity"
+            android:name=".Logic.NewGameActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

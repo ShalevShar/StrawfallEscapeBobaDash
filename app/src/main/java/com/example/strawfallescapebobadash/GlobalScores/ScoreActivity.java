@@ -1,4 +1,4 @@
-package com.example.strawfallescapebobadash;
+package com.example.strawfallescapebobadash.GlobalScores;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.example.strawfallescapebobadash.Fragments.fragment_google_map;
 import com.example.strawfallescapebobadash.Fragments.fragment_scores;
+import com.example.strawfallescapebobadash.MainActivity;
+import com.example.strawfallescapebobadash.R;
 
 public class ScoreActivity extends AppCompatActivity implements ScoreAdapter.OnMapLocationClickListener {
 
