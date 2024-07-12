@@ -3,7 +3,7 @@
 
 ![ScreenRecording2024-07-01at20 08 45-ezgif com-resize](https://github.com/ShalevShar/StrawfallEscapeBobaDash/assets/127881894/2b7fef9a-995c-45ad-a87a-9b6d19e7f79b)
 
-
+ 
 Description:
 Boba Dash is an engaging Android game where you control a boba drink, navigating through falling straws and collecting coins to win extra points. The longer you survive, the higher your score! Enjoy simple controls, colorful graphics, and compete with friends and family to become the ultimate Boba Dash champion.
 
